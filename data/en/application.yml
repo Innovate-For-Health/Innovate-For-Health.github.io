@@ -1,0 +1,49 @@
+################## application #################################
+application:
+  enable : true
+  image : ""
+  title : ""
+
+  content : "The University of California Berkeley (UC Berkeley) and University of California San Francisco (UCSF) are currently soliciting applications for 
+  outstanding data scientists to join a new, groundbreaking data science health innovation fellowship program. Fellows will be provided with 2 years of generous 
+  financial support to develop and execute innovative, data-driven research projects in areas of unmet patient needs. Fellows will have access to computer science, 
+  engineering, and statistics expertise and technology innovation at UC Berkeley; clinical expertise and data at UCSF; and pharmaceutical industry and translational 
+  expertise from Janssen Research & Development. Combining mentorship from all three organizations, large health and biological datasets, and their own data science expertise, 
+  Fellows will safely and respectfully conduct research projects with the potential to transform healthcare.\n \n
+
+  ##### APPLICATION TIMELINE
+
+  - Application Review and Interviews: **August, 2020** \n
+  - Fellowship recipients announced: **September, 2020** \n
+  - Fellowship Dates: **October, 2020 - October, 2022** \n
+
+
+Fellows will spend the first six months of the fellowship program developing feasible, innovative, high-impact, data science, and health-related translational research projects 
+based on their interests and expertise, the availability of suitable mentors, and the availability of data and other resources. At the end of this period, Fellows will present their 
+detailed research project proposals that will include a problem statement and a proposed approach that highlights the proposals’ innovation(s), feasibility, impact, required datasets 
+and resources, potential pitfalls, and possible solutions to the management team. Fellows, working with their academic and industry mentors, will then conduct the research projects they proposed.
+
+
+  ##### EDUCATION AND TRAINING 
+
+- BS with 7+ years or MS with 6+ years or PhD with 3+ years of applicable experience is expected. \n
+- Degree(s) should be in a technical discipline such as Computer Science, Engineering, Statistics, Physic, Math or other related fields. \n 
+- Experience working in health and biomedical sectors not required. \n
+
+
+
+  ##### WHO ARE WE LOOKING FOR?
+
+- You have a computational background with several years of post-degree experience (for specifics refer to the job description). We want to see evidence of your practical accomplishments! \n 
+- You do not need to have worked in the health and biomedical sectors, but you should be passionate about the potential of AI to transform healthcare and motivated to contribute to that transformation. \n
+- You are self-motivated, proactive, forward-thinking, creative, and have demonstrated your ability to propose, initiate, and carry out ambitious data-intensive projects even with few specifically assigned resources. \n
+- You have strong collaboration, interpersonal, and communication skills, both with researchers across methodological areas and research domains. We’re building a community around and across each cohort of Fellows, 
+because none of the major problems in healthcare will be solved by a single person. We’ll surround you with mentors, clinicians, stakeholders throughout the health value chain, entrepreneurs, so you can both learn 
+from and teach something new to everyone you meet.\n 
+- You can transform large and messy datasets into insights, effectively communicate your process and insights to technical and non-technical audiences, and demonstrate significant business impact. \n
+- And of course, you need to be strong technically in modeling, programming, and scientific computing.\n 
+
+
+  For more information about the program and the application process, please refer to the **FAQ** or **Contact Us** directly. 
+
+"

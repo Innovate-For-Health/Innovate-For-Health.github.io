@@ -1,0 +1,377 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<!-- about -->
+{{ if $data.about.about.enable }}
+{{ with $data.about.about }}
+<section class="about-page section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<img src="{{ .image | absURL }}" alt="" class="img-fluid">
+			</div>
+		</div>
+
+      <div class="col-lg-12">
+        <img src="/images/CombinedLogos.png" alt="" class="img-fluid">
+      </div>
+
+		<div class="row mt-5">
+
+       <!-- comment ***
+			<div class="col-lg-6">
+				<h2 class="mb-4 text-lg title">{{ .title | markdownify }}</h2>
+			</div>
+        ** comment -->
+			
+      <div class="col-lg-12.5">
+				<p>{{ .content | markdownify }}</p>
+            <!-- comment ***
+        <a href="https://2020.textxd.org/program/agenda/" class="btn btn-hero btn-rounded">2020</a>
+        <a href="https://2019.textxd.org/2019/program/" class="btn btn-hero btn-rounded">2019</a>
+        <a href="http://2018.textxd.org/programs/textxd2018/" class="btn btn-hero btn-rounded">2018</a>
+            ** comment -->
+			</div>
+
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /about -->
+
+
+<!-- sponsor -->
+{{ if $data.about.sponsor.enable }}
+{{ partial "sponsor.html" . }}
+{{ end }}
+<!-- /sponsor -->
+
+<!-- feature -->
+{{ if $data.about.feature.enable }}
+{{ with $data.about.feature }}
+<section class="section cta-wrap bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="cta-content">
+          <span class="lead">{{ .subtitle | markdownify }}</span>
+          <h2 class="mt-3 mb-4 text-md title">{{ .title | markdownify }}</h2>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-secondary btn-rounded my-4">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="row">
+          {{ range .feature_item }}
+          <div class="col-md-6 mb-4">
+            <div class="feature-item" style="background-color: {{if .bg_color}}{{.bg_color}}{{else}}#343a40{{end}};">
+              <i class="{{ .icon }}"></i>
+              <h4 class="mt-3 mb-3">{{ .title | markdownify }}</h4>
+              <p>{{ .content | markdownify }}</p>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /feature -->
+
+<!-- /Leaders -->
+
+<section class="speaker-2 section bg-white">
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col-lg-6">
+            <div class="heading">
+            <span class="stroke-text">Leadership</span>
+            <div class="pl-90 content">
+          <h2 id="whore-speaking">Directors & Joint Streering Committee Members</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/AfiaAfzal.jpeg" alt="Afia Afzal" class="img-fluid rounded-circle">
+            <ul class="list-inline speaker-social">
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/afia-afzal-5b501b16/"><i class="tf-ion-social-linkedin"></i></a></li>
+            </ul>
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="https://www.linkedin.com/in/afia-afzal-5b501b16/">Afia Afzal, MS, MBA </a></h4>
+            <p>Janssen Pharmaceutical Companies of Johnson & Johnson</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/PamelaBradt.jpeg" alt="Pamela Bradt" class="img-fluid rounded-circle">
+            <ul class="list-inline speaker-social">
+              <li class="list-inline-item"><a href="https://www.linkedin.com/public-profile/in/pamela-bradt-md-mph-90045932?challengeId=AQGzLG9HycJgAgAAAXdJ9Glh2R9VdtAU1AiXSFz_HsFvnmLkW-RmAI0Pk8qoCp1rqqYl0tSnB-LiuoOvWoe5SUl6u1uGo4wVQw&submissionId=7a9c5286-3574-5e16-fa72-d27c2d21ae6d&original_referer=https%3A%2F%2Finnovateforhealth.berkeley.edu%2F"><i class="tf-ion-social-linkedin"></i></a></li>
+            </ul>
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="https://www.linkedin.com/public-profile/in/pamela-bradt-md-mph-90045932?challengeId=AQGzLG9HycJgAgAAAXdJ9Glh2R9VdtAU1AiXSFz_HsFvnmLkW-RmAI0Pk8qoCp1rqqYl0tSnB-LiuoOvWoe5SUl6u1uGo4wVQw&submissionId=7a9c5286-3574-5e16-fa72-d27c2d21ae6d&original_referer=https%3A%2F%2Finnovateforhealth.berkeley.edu%2F">Pamela Bradt, MD, MPH</a></h4>
+            <p>Janssen Pharmaceutical Companies of Johnson & Johnson</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/AtulButte.png" alt="Atul Butte" height="25" class="img-fluid rounded-circle">
+            <ul class="list-inline speaker-social">
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/atulbutte/"><i class="tf-ion-social-linkedin"></i></a></li>
+            </ul>
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="https://profiles.ucsf.edu/atul.butte">Atul Butte, MD, PhD </a></h4>
+            <p>UCSF</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/NajatKhan.png" alt="Najat Khan" class="img-fluid rounded-circle">
+            <ul class="list-inline speaker-social">
+               <li class="list-inline-item"><a href="https://www.linkedin.com/in/najat-khan-phd-b391598/"><i class="tf-ion-social-linkedin"></i></a></li>
+            </ul>
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="https://www.linkedin.com/in/najat-khan-phd-b391598/">Najat Khan, PhD</a></h4>
+            <p>Janssen Pharmaceutical Companies of Johnson & Johnson</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/BarbaraLopezKunz.png" height="300" alt="Barbara Lopez Kunz" class="img-fluid rounded-circle">
+            <ul class="list-inline speaker-social">
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/barbaralopezkunz/"><i class="tf-ion-social-linkedin"></i></a></li>
+            </ul>
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="https://www.linkedin.com/in/barbaralopezkunz/">Barbara Lopez Kunz, MS, MBA</a></h4>
+            <p>Drug Information Association (Independent Expert)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/MaryamVareth320.png" alt="Maryam Vareth" class="img-fluid rounded-circle">
+            <ul class="list-inline speaker-social">
+              <li class="list-inline-item"><a href="https://twitter.com/maryamvareth?lang=en"><i class="tf-ion-social-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/maryam-vareth-phd/"><i class="tf-ion-social-linkedin"></i></a></li>
+            </ul>
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="https://bids.berkeley.edu/people/maryam-vareth">Maryam Vareth, PhD</a></h4>
+            <p>UC Berkeley & UCSF</p>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/KathyYelick.jpeg" alt="Kathy Yelick" class="img-fluid rounded-circle">
+            <ul class="list-inline speaker-social">
+               <li class="list-inline-item"><a href="https://www.linkedin.com/in/kathy-yelick-9226123/"><i class="tf-ion-social-linkedin"></i></a></li>
+            </ul>
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="https://data.berkeley.edu/people/kathy-yelick">Kathy Yelick, PhD</a></h4>
+            <p>UC Berkeley</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- FELLOWS -->
+
+<section class="speaker-2 section bg-white">
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col-lg-6">
+            <div class="heading">
+            <span class="stroke-text">Fellows</span>
+            <div class="pl-90 content">
+          <h2 id="whore-speaking">Sr. Data Scientists</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/LeonardApeltsin.jpeg" alt="Leonard Apeltsin" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Leonard Apeltsin, PhD </a></h4>
+            <p>2019 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/StephEaneff.jpeg" alt="Steph Eaneff" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Steph Eaneff, MSP</a></h4>
+            <p>2019 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/HaleyHunterZinck.jpeg" alt="Haley Hunter Zinck" height="25" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Haley Hunter-Zinck, PhD </a></h4>
+            <p>2019 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/LowryKirkby.jpeg" alt="Lowry Kirkby" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Lowry Kirkby, PhD</a></h4>
+            <p>2019 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/LaurensKraal.png" height="300" alt="LaurenKraal" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Laurens Kraal, PhD</a></h4>
+            <p>2019 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/AkramBayat.jpeg" alt="Akram Bayat" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Akram Bayat, PhD </a></h4>
+            <p>2020 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/RezaEghbali.jpeg" alt="Reza Eghbali" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Reza Eghbali, PhD</a></h4>
+            <p>2020 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/BenLacar.jpeg" alt="Ben Lacar" height="25" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Ben Lacar, PhD </a></h4>
+            <p>2020 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/SaeedSeyyedi.jpeg" alt="Saeed Seyyedi" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Saeed Seyyedi, PhD</a></h4>
+            <p>2020 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/ElizabethSmith.png" height="300" alt="Elizabeth Smith" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Elizabeth Smith, PhD</a></h4>
+            <p>2020 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="/images/people/MithraVankipuram.jpeg" height="300" alt="Mithra Vankipuram" class="img-fluid rounded-circle">
+          </div>  
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="">Mithra Vankipuram, PhD</a></h4>
+            <p>2020 Cohort</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+{{ end }}

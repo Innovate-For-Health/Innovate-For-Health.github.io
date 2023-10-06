@@ -1,0 +1,71 @@
+################## program #################################
+program:
+  enable : true
+  image : ""
+  title : ""
+
+  content : "The underlying gap this Fellowship Program is aiming to address is that in healthcare, the data, talent, disciplines, and industry expertise are found in different places. 
+  Clinical data are often siloed and underutilized; top data science talent often goes to tech companies; and consumer, medical device and biopharma companies each have their own sector 
+  expertise but are disconnected. This Fellowship will unite those data, talent, and expertise to develop and deliver on innovative projects through the carefully designed 2-year Program.\n
+
+  ##### I. Project Ideation and Innovation Period (6 Months)
+
+  Fellows will spend the first six months of the program developing feasible, innovative, high-impact, data science and health-related translational research projects based on their interests 
+  and expertise, the availability of suitable Mentors, and the availability of data and other resources. They will do so by engaging with potential University and Janssen Mentors, the Management 
+  Team (including Co-Directors, and the Steering Committee) while exploring research questions and what resources are available to answer those questions. At the end of this period, Fellows will 
+  present detailed research project proposals that will include a problem statement and a proposed approach that highlights the innovation(s), feasibility, impact, required datasets and resources, 
+  potential pitfalls, and possible solutions. This period will be divided into the three following phases: \n 
+
+
+
+###### *- Need Exploration Phase (Month 1-2)* 
+
+Concurrent with the eight-week onboarding sateg, Fellows will compile up to five unmet health and medical needs through onboarding activities and additional interactions with potential Mentors and 
+other researchers. Each Fellow will additionally meet with the Co-Directors regularly to discuss his/her progress. Fellows will present these needs and the rationales for their selection to the 
+Management Team via a slide presentation during a video- or teleconference at the end of the Needs Exploration Phase in order to solicit feedback on which needs are the most promising to pursue; 
+what information is needed to better evaluate the suitability of the needs; and what potential University and Sponsor Mentors, data sets, and other resources might be needed to further develop 
+promising research questions. \n
+
+ 
+
+###### *- Solution Generation Phase (Months 3-4)* 
+
+Fellows will work with potential Mentors and other researchers to translate the high impact unmet medical needs into no more than three research questions and potential solutions, each simply describing 
+a problem, a target population, potential approaches, a desired outcome, potential challenges and alternative approaches.  For each research question, Fellows will specify which Mentors with whom they 
+propose to work, what data and other resources would be needed to test the hypothesis, and how their research could translate into improved health outcomes for the target populations. Each Fellow will 
+meet with the Co-Directors regularly to discuss his/her progress. Fellows will present their research questions and potential solutions to the Management Team via a slide presentation during a video- 
+or teleconference at the end of the Solution Generation Phase in order to solicit feedback on which research questions are the most promising to pursue; what information is needed to better refine and 
+evaluate the corresponding hypotheses; and what potential Mentors, data sets, and other resources might be needed to further develop promising research questions and potential approaches into full project
+ proposals. In addition to feedback provided during the video- or teleconference, within two weeks the Management Team will provide written feedback to Fellows.  The written feedback will be intended to 
+ help Fellows develop their proposals and provide notice about whether the Management Team considers them to be on track to develop successful proposals that will secure the Management Team approval. \n
+ 
+
+###### *- Proposal Development Phase (Months 5-6)* 
+
+Fellows will select a single research question, develop it into a written Proposal, secure commitments from Mentors contingent on the acceptance of the proposal by the Management Team, and present the 
+Proposal in person. Each Fellow will meet with the Co-Directors regularly prior to submission of his/her written Proposal to discuss his/her progress during the Project Development Phase. Fellows will 
+submit written proposals to the Management Team and their potential Mentors at least two weeks prior to presenting their proposals to the Management Team.  Potential Mentors will review the proposals 
+and submit one-page letters to the Management Team in support of the proposals. If the Management Team determines the proposal to be satisfactory, it shall so notify the Fellow who shall then proceed 
+to the Research, Discovery, and Implementation Period. If the Management Team requires modification of the proposal prior to approval thereof, it shall so notify the Fellow and provide written feedback 
+to such Fellow so that he/she may revise and resubmit. A Fellow will meet with potential Mentors no later than one week after receiving written feedback from the Management Team to help such Fellow 
+address the feedback and discuss plans to modify his/her proposal for resubmission. A Fellow may not proceed to the Research, Discovery and Implementation Period until the Management Team has given its 
+approval. The Management Team will determine a resubmission process.\n 
+
+
+##### II. Research, Discovery, and Implementation Period (15 Months)
+
+Fellows, working with their Mentors and Co-Directors, will conduct their research projects. As described above, Fellows will have access to resources necessary to conduct their projects, which may 
+include but will not be limited to data and computing resources. Mentors will meet as a group via video or teleconference on a quarterly basis to provide feedback to Fellows on their research projects.
+ The Co-Directors will meet with each Fellow to discuss his/her progress regularly. Periodic meetings will be arranged with individual Mentors. \n 
+
+
+##### III. Wrap-up Period (3 Months)
+
+Fellows will create a final report and submit it to the Management Team no more than two weeks before the Graduation Symposium. \n 
+
+
+##### Graduation
+
+Following completion of the Program, Fellows will present their findings to the Management Team, their Mentors, program alumni, and other invitees at a Graduation Symposium. \n 
+
+"

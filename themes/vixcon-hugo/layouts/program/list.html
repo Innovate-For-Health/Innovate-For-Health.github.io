@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<!-- program -->
+{{ if $data.program.program.enable }}
+{{ with $data.program.program }}
+<section class="about-page section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<img src="{{ .image | absURL }}" alt="" class="img-fluid">
+			</div>
+		</div>
+
+			<div class="col-lg-12">
+        		<img src="/images/banner/I4H-Program-Diagram.png" alt="" class="img-fluid">
+    		</div>
+
+		<div class="row mt-5">
+
+       <!-- comment ***
+			<div class="col-lg-6">
+				<h2 class="mb-4 text-lg title">{{ .title | markdownify }}</h2>
+			</div>
+        ** comment -->
+			
+      <div class="col-lg-12.5">
+				<p>{{ .content | markdownify }}</p>
+
+            <!-- comment ***
+        <a href="https://2020.textxd.org/program/agenda/" class="btn btn-hero btn-rounded">2020</a>
+        <a href="https://2019.textxd.org/2019/program/" class="btn btn-hero btn-rounded">2019</a>
+        <a href="http://2018.textxd.org/programs/textxd2018/" class="btn btn-hero btn-rounded">2018</a>
+            ** comment -->
+			</div>
+
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /program -->
+
+{{ end }}

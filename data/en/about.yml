@@ -1,0 +1,62 @@
+################## about #################################
+about:
+  enable : true
+  image : "images/bg/SigningCeremony.png"
+  title : "Inovation & **Inspiration** \n Connect People"
+
+  content : "In 2019, UC Berkeley, UCSF, Johnson & Johnson Innovation and Janssen Research & Development came together to establish 
+  the Data Science Health Innovation Fellowship Program, to bring together experienced data scientists with academic and industry researchers, 
+  to facilitate collaboration among scientists, engineers, clinicians, and entrepreneurs, to tackle complex problems in health and patient care 
+  and to accelerate innovation in healthcare through data-driven approaches. \n 
+
+  This fellowship program offers a two-year research and entrepreneurial opportunity for seasoned data science professionals to apply computer science, 
+  data science, data engineering, and computational statistics research and development principles, along with relevant domain science knowledge, 
+  to complex problems and datasets, to advance understanding of health and improve patient care by providing meaningful clinical insights. 
+  The fellowship program will recruit serial cohorts of up to five outstanding data scientists per year from industry and academia. 
+  We are seeking applications from a wide range of backgrounds and with specializations across the burgeoning field of data science, such as 
+  artificial intelligence, cloud computing, developing and optimizing methodologies, software, and tools while working with various large datasets. 
+  The datasets Fellows will work with be healthcare related, such as electronic medical records, clinical notes, medical images, high-content microscopy 
+  and 'omics'. Fellows will receive training, support, and guidance from domain science and medical experts, including a mentor from each of the three 
+  collaborating organizations. The primary responsibility of the Fellows is to successfully identify and conduct interdisciplinary data-intensive research related 
+  to healthcare and use computational and data science technology as a tool to accomplish the aims of the research."
+
+################## sponsor ###############################
+sponsor:
+  enable : false
+  # sponsor data comes from "homepage.yml" file
+
+
+################## Feature ##############################
+feature:
+  enable : false
+  subtitle : "10% Sale offer for early birds"
+  title : "Meet top **digital masters** & influencers in a unique **3-days** experience."
+  button:
+    enable : false
+    label : "Get ticket"
+    link : "pricing"
+  
+  feature_item:
+    # feature item loop
+    - title : "Global Audience"
+      icon : "tf-ion-android-globe" # check `static/plugins/themefisher-font/demo.html` for more icon
+      bg_color : "#17a2b8"
+      content : "Starting a mentoring program might be the closest you'll ever get."
+      
+    # feature item loop
+    - title : "Valuable Insight"
+      icon : "tf-ion-android-microphone" # check `static/plugins/themefisher-font/demo.html` for more icon
+      bg_color : "" # if color is empty, it will get the default dark color
+      content : "Starting a mentoring program might be the closest you'll ever get."
+      
+    # feature item loop
+    - title : "Global Audience"
+      icon : "tf-ion-android-globe" # check `static/plugins/themefisher-font/demo.html` for more icon
+      bg_color : "#ff4747"
+      content : "Starting a mentoring program might be the closest you'll ever get."
+      
+    # feature item loop
+    - title : "Global Audience"
+      icon : "tf-ion-android-microphone" # check `static/plugins/themefisher-font/demo.html` for more icon
+      bg_color : "#4125dd"
+      content : "Starting a mentoring program might be the closest you'll ever get."

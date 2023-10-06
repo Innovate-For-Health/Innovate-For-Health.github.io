@@ -1,0 +1,75 @@
+################################# Faq ####################################
+faq:
+  title_outline : "Faq"
+  title : "Frequently Asked Question"
+  content : ""
+  faq_item:
+    # faq item loop
+    - title : "Is the fellowship a full-time position? Are there any part-time opportunities?"
+      content : "Yes, the Fellowship program requires a full-time, 2-year commitment. If you are interested in part-time health care research work for data scientists, please let us know and we can try to connect you with more suitable opportunities."
+      
+    # faq item loop
+    - title : "Can I be engaged in or completing a PhD program while starting the Fellowship Program?"
+      content : "The Fellowship is designed as a full-time program, so we don’t foresee anyone being eligible to start the program with any significant, 
+      unresolved work or educational commitments. Please let us know if you’d like feedback on eligibility given your particular circumstance."
+      
+    # faq item loop
+    - title : "Would it be possible to start as a Fellow at a date after the official fellowship start date?"
+      content : "No, all successful applicants must commit to starting the Fellowship Program in October, 2020."
+      
+    # faq item loop
+    - title : "Can I apply if I am not a citizen of the United States?"
+      content : "Yes, the Fellowship program is accepting applicants from any country of origin. Applicants must, however, already have the proper authorization to work in the United States for the entire duration of the fellowship program, from October, 
+      2020 through October, 2022. We are currently unable to provide visa sponsorship or support. Please let us know if you have any questions about your particular circumstances."
+
+    # faq item loop
+    - title : "Can you tell me more about the application process?"
+      content : "While the Fellowship Program is jointly run by UC Berkeley and UCSF, applications must be submitted through UCSF’s job application website. Please follow the link posted at the InnovateForHealth.berkeley.edu website to apply. 
+      Applicants who are invited to be interviewed following the initial application submission process will be interviewed via tele- orvideo-conference, and may be subsequently invited for an in-person interview."
+
+    # faq item loop
+    - title : "What materials are needed for my application?"
+      content : "The initial application requires a cover letter, along with a CV, to be uploaded as PDFs. Applicants who are invited to be interviewed may be asked to submit additional materials, 
+      including the contact information for three professional references, links to publicly available code (e.g., Github), PowerPoint slides of presentations and/or talks, and PDFs of publications."
+
+    # faq item loop
+    - title : "Is an advanced degree necessary to apply for this program?"
+      content : "While we encourage those with Masters and PhD degrees to apply for this program, an advanced degree is not necessary. We anticipate that some of the strongest applicants to the program may not have advanced degrees. 
+      All applicants should have a degree in a technical field (Computer Science, Engineering, Statistics, Physics, Math, or other related fields) and applicable post-degree experience 
+      (BS with 7+ years, MS with 6+ years, or PhD with 3+ years of applicable experience is expected)."
+
+    # faq item loop
+    - title : "Are publications required to apply for this program?"
+      content : "No, publications are not required to apply for this program. However, if you have published, please include references to your publications in your application materials."
+
+    # faq item loop
+    - title : "What does your ideal candidate look like?"
+      content : "We are looking for people from a wide variety of backgrounds to form a collegial, mutually supportive cohort of fellows. We particularly encourage individuals from communities that are underrepresented in the data and health sciences to apply. 
+      Successful applicants will: \n 
+      - Have a computational background with several years of post-degree experience, and be strong technically in modeling, programming, and scientific computing. \n
+      - Be able to transform large and messy datasets into insights, effectively communicate their process and insights to technical and non-technical audiences, and demonstrate significant business impact. \n
+      - Be passionate about the potential of AI to transform healthcare and motivated to contribute to that transformation. \n 
+      - Be self-motivated, proactive, forward-thinking, creative, and have demonstrated their ability to propose, initiate, and carry out ambitious data-intensive projects even with few specifically assigned resources. \n
+      - Have strong collaboration, interpersonal, and communication skills, both with researchers across methodological areas and research domains."
+
+    # faq item loop
+    - title : "Where will Fellows be located? Would I need to relocate to participate in the program?"
+      content : "Fellows will have dedicated space on both UC Berkeley and UCSF’s Mission Bay campuses, and are expected to spend considerable time in the spaces of their selected mentors on both campuses. 
+      Fellows will be working on both campuses and are therefore expected to live within commuting range of both."
+
+    # faq item loop
+    - title : "What will Fellow financial compensation be during the program?"
+      content : "Fellows will be paid $117,800-$130,000 annually, with the final offer made according to each individual's background and expertise. Applicants who are offered invitations to join the fellowship program will not have the opportunity to negotiate their salaries. 
+      Non-financial compensationwill be ample, including all benefits standard for full-time University of California employees; affiliation and access to researchers, clinicians, and entrepreneurs as mentors and collaborators at three world-class institutions; and access to large health and biological datasets."
+
+    # faq item loop
+    - title : "How many Fellows will be invited to join the program?"
+      content : "We plan for up to six fellows to join the program in 2020."
+
+
+  ################ support #################
+  support:
+    title : "Need Any further Support?"
+    button:
+      lable : "Contact us"
+      link : "contact"
